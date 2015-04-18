@@ -1,0 +1,74 @@
+img {
+	max-width: 100%;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+@media screen and (min-width: 740px) {
+
+	body {
+		padding: 0 3em;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	.page {
+		max-width: 960px;
+		margin: 3em auto;
+	}
+
+	.content {
+		margin: 3em auto;
+	}
+
+	.widebar,
+	.sidebar {
+		float: left;
+	}
+
+	.widebar {
+		width: 77.083%; /* 740/960 */
+		max-width: 740px;
+		border-right: .25em solid #eee;
+		padding-right: 1.5em;
+	}
+
+	.sidebar {
+		width: 22.917%; /* 220/960 */
+		max-width: 220px;
+		padding-left: 1.5em;
+		margin-top: 0;
+		padding-top: 0;
+		border-top: 0;
+	}
+
+	.nav-horizontal .nav-item {
+		float: left;
+	}
+
+	.nav-horizontal .nav-item + .nav-item {
+		/* take away some of the mobile styles */
+		border-top: 0;
+		/* add our new styles */
+		border-left: 1px solid #eee;
+	}
+
+	.nav-horizontal .nav-link {
+		padding: .5em 1.5em;
+	}
+
+	.nav-vertical .nav-link {
+		padding: .5em .75em;
+	}
+
+}

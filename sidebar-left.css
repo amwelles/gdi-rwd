@@ -1,0 +1,17 @@
+@media screen and (min-width: 740px) {
+
+	.sidebar {
+		margin-left: -100%; /* -960/960 */
+		padding-left: 0;
+		padding-right: 1.5em;
+	}
+
+	.widebar {
+		margin-left: 22.917%; /* 220/960 */
+		border-right: 0;
+		padding-right: 0;
+		border-left: .25em solid #eee;
+		padding-left: 1.5em;
+	}
+
+}
