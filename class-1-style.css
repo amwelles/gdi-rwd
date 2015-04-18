@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 	list-style: none;
 	margin: 1em 0;
 	padding: 0;
+	border: 1px solid #eee;
 }
 
 .nav-vertical .nav-item + .nav-item,
