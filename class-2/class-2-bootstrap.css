@@ -1,0 +1,4 @@
+/* who knows why Bootstrap doesn't include this */
+img {
+	max-width: 100%;
+}
