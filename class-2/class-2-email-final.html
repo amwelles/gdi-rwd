@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!-- adapted from https://github.com/seanpowell/Email-Boilerplate/blob/master/email_lite.html -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Your Message Subject or Title</title>
+	<style type="text/css">
+		/* desktop styles out here */
+
+		/* really basic reset */
+
+		table {
+			border-collapse: collapse;
+			border: 0;
+		}
+
+		td {
+			padding: 0;
+		}
+
+		/* global classes */
+
+		.text-right {
+			text-align: right;
+		}
+
+		/* styling classes */
+
+		.container {
+			max-width: 600px;
+			margin: auto;
+		}
+
+		.top-bar {
+			background: #ed6c44;
+			color: white;
+			width: 100%;
+		}
+
+		.top-bar td {
+			padding: 10px;
+		}
+
+		.widebar,
+		.sidebar {
+			vertical-align: top;
+		}
+
+		.widebar {
+			width: 70%;
+		}
+
+		.sidebar {
+			width: 30%;
+		}
+
+		@media only screen and (max-device-width: 480px) {
+			/* mobile styles in this media query */
+			.sidebar,
+			.widebar {
+				display: block;
+				width: 100%;
+			}
+
+			.hero-image {
+				display: none;
+			}
+
+			.article img {
+				display: block;
+				margin-bottom: 1em;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<table cellpadding="0" cellspacing="0" border="0" class="container">
+		<tr>
+			<td>
+				<table class="top-bar">
+					<tr>
+						<td>Having trouble viewing this email?</td>
+						<td class="text-right"><a href="#">Online Version</a> <a href="#">Forward to a Friend</a></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td><img src="http://placehold.it/250x100" alt="eMail logo" /></td>
+						<td>June 2015</td>
+					</tr>
+				</table>
+				<table class="hero">
+					<tr>
+						<td>
+							<h1>Free Email</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia veritatis rem esse sunt itaque amet neque obcaecati saepe est cupiditate? Dolores distinctio, quae fugiat sapiente hic aliquid repudiandae, fugit tempore.</p>
+							<p><a href="#">Find Out More</a></p>
+						</td>
+						<td class="hero-image">
+							<img src="http://placehold.it/300x400" alt="Promo image" />
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td class="widebar">
+							<table class="article">
+								<tr>
+									<td>
+										<h2>Headline goes here</h2>
+										<p><img src="http://placehold.it/150x150" alt="Inner image" /> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat culpa, dolorem eligendi dolor omnis iste dolores optio quia provident, doloribus ipsam, delectus! Magni suscipit eum ad doloribus obcaecati, iste beatae!</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="#">Read More</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="sidebar">
+							<table>
+								<tr>
+									<td>
+										<h3>Sidebar List</h3>
+										<ul>
+											<li><a href="#">Here's a list item</a></li>
+											<li><a href="#">Here's a list item</a></li>
+											<li><a href="#">Here's a list item</a></li>
+											<li><a href="#">Here's a list item</a></li>
+										</ul>
+									</td>
+								</tr>
+							</table>
+							<table></table>
+							<table></table>
+							<table></table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>This daily newsletter was sent to you@example.com from Company name because you subscribed.<br>
+				Rather not receive our newsletter anymore? <a href="#">Unsubscribe immeidately</a></td>
+		</tr>
+	</table>
+
+</body>
+</html>
