@@ -1,0 +1,27 @@
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.btn-callout {
+	background-image: linear-gradient(yellow, red);
+	border: 0;
+	font-weight: bold;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.photo-gallery {
+	-webkit-display: flex;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	height: 400px;
+}
+
+.photo-item {
+	width: 20%;
+	text-align: center;
+	margin-bottom: 1em;
+}
